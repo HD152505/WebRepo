@@ -1,0 +1,33 @@
+@charset "EUC-KR";
+*{
+ color : Black;
+ text-align : left;
+}
+
+h1{
+color : white;
+ background-color : #80ffff;
+ border : 2px solid;
+ 
+}
+#main{
+	text-align : center;
+	margin : 20px;
+	top : 0px;
+}
+#whos{
+	font-color : black;
+	
+}
+
+
+.card{
+	display:inline-block;
+	margin:50px;
+}
+  div.container{
+  padding-top : 30px;
+  
+  }
+
+ }

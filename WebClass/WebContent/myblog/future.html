@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+	integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+	crossorigin="anonymous">
+<link rel="stylesheet" href="../css/blog.css">
+
+<title>미래</title>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="kyh.html">용환's blog</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this);"><a class="nav-link"
+					href="who.html">Who am I? <span class="sr-only">(current)</span></a>
+				</li>
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this);"><a class="nav-link"
+					href="interests.html">interests</a></li>
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this);"><a class="nav-link "
+					href="future.html">future</a></li>
+
+			</ul>
+			<form class="form-inline my-2 my-lg-0" id="loginForm">
+				<input class="form-control mr-sm-2" type="text" placeholder="ID"
+					aria-label="ID" id="id" required> <input
+					class="form-control mr-sm-2" type="password" placeholder="pwd"
+					aria-label="pwd" id="pwd" required> <a class="nav-link"
+					href="signUp.html">회원가입 <span class="sr-only">(current)</span></a>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Login</button>
+			</form>
+		</div>
+	</nav>
+	<div class="container">
+		<div class="modal" id="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">로그인 결과</h5>
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script
+		src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+	<script
+		src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+	
+
+	<div id="carouselExampleIndicators" class="carousel slide"
+		data-ride="carousel">
+		<ol class="carousel-indicators">
+			<li data-target="#carouselExampleIndicators" data-slide-to="0"
+				class="active"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+			<li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+
+			<div class="carousel-item">
+				<img class="d-block" src="korea.jpg" alt="Third slide" width="1600"
+					height="600">
+				<div class="carousel-caption d-none d-md-block">
+					<h3>첫 번째 목표 : 대학</h3>
+					<h4>고려대</h4>
+					<p>결론 부터 말해서 내 대학 목표는 고려대학교이다.</p>
+					<p>포항공대도 정말 동경에 대상이지만, 수시를 쓰고 싶은 입장에서 현실적으로 어려울 것처럼 보인다.</p>
+					<p>그렇다고 고려대학교가 차선택은 아니고, 둘 다 정말 맘에 들고, 그 중 갈 가능성이 높은 쪽이 고려대일
+						뿐이다.</p>
+					<p>고려대학교, 레알 빡샌 햑교지만, 나도 정말 노력하고 있기 때문에, 그 동안에 노력과 찬란한 내 미래를
+						위해서라도 열심히 공부할 것이다.</p>
+				</div>
+			</div>
+
+			<div class="carousel-item active">
+				<img class="d-block " src="marry.jpg" alt="First slide" width="1600"
+					height="600">
+				<div class="carousel-caption d-none d-md-block">
+					<h3>두 번째 목표</h3>
+					<h4>결혼</h4>
+					<p>저 푸른 초원위에</p>
+					<p>그림같은 집을 짓고</p>
+					<p>사랑하는 우리님과~ 한 평생 살고 싶네</p>
+
+				</div>
+			</div>
+			<div class="carousel-item">
+				<img class="d-block" src="foodtrip.jpg " alt="Second slide"
+					width="1600" height="600">
+				<div class="carousel-caption d-none d-md-block">
+					<h3>세 번째 목표</h3>
+					<h4>먹거리여행</h4>
+					<p>내 인생목표는 바로 먹거리 여행이다.</p>
+					<p>흥미에도 음식이 있는 만큼 나는 음식을 사랑하기에</p>
+					<p>전세계를 돌아다니며 맛있는 음식을 마음껏 먹고싶다.</p>
+
+				</div>
+			</div>
+
+
+		</div>
+		<a class="carousel-control-prev" href="#carouselExampleIndicators"
+			role="button" data-slide="prev"> <span
+			class="carousel-control-prev-icon" aria-hidden="true"></span> <span
+			class="sr-only">Previous</span>
+		</a> <a class="carousel-control-next" href="#carouselExampleIndicators"
+			role="button" data-slide="next"> <span
+			class="carousel-control-next-icon" aria-hidden="true"></span> <span
+			class="sr-only">Next</span>
+		</a>
+	</div>
+	<script src="../js/myblog.js"></script>
+</body>
+</html>

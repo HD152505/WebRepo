@@ -1,0 +1,27 @@
+@charset "EUC-KR";
+/*¡÷ºÆ*/
+*{
+ color : Blue;
+ text-align : center;
+}
+h1{
+ background-color : yellow;
+ border : 2px solid;
+}
+h3{
+color: pink;
+text-align : right;
+}
+#t1{
+font-weight : bold;
+}
+.g1{
+font-style : italic;
+}
+
+h1,h3{
+text-decoration : underline;
+}
+#blog{
+	font-weight : bold;
+}
