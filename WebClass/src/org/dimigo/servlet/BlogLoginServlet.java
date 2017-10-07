@@ -51,7 +51,7 @@ public class BlogLoginServlet extends HttpServlet {
       // TODO Auto-generated method stub
       request.setCharacterEncoding("utf-8");
       String id = request.getParameter("id");
-      String name = "테스트 아이디";
+      String name = "myha";
       String pwd = request.getParameter("pwd");
       boolean result = false;
       String sen = "test@naver.com";
