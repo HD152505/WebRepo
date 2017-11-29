@@ -1,21 +1,14 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<%@ page import="org.dimigo.vo.UserVO"%>
+    <%@ page isErrorPage="true" %>
 <!DOCTYPE html>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
+<title>Insert title here</title>
 </head>
 <body>
-<%
-UserVO user = (UserVO)session.getAttribute("user");
-
-
-%>
-<h1>
-id : <%=user.getId() %><br>
-name : <%=user.getName() %><br>
-nickname : <%=user.getNickname() %></h1>
+<h1>Exception : <%=exception.getClass().getName() %></h1>
+<h1>Message : <%=exception.getMessage() %></h1>
 </body>
 </html>
